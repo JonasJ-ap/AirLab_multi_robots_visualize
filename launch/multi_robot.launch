@@ -1,0 +1,11 @@
+<launch>
+  
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find lines_between_robots)/rviz/multi_robot.rviz"/>
+
+  <!-- Subscribes to /cloud and /clouds/* -->
+
+  <node pkg="lines_between_robots" type="lines_between_robots_node" name="lines_between_robots_node" output="screen">
+ </node>
+
+    
+</launch>
