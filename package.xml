@@ -54,18 +54,23 @@
   <build_depend>cmake_modules</build_depend>
   <build_depend>sensor_msgs</build_depend>
   <build_depend>visualization_msgs</build_depend>
+  <build_depend>super_odometry_msgs</build_depend>
   <build_depend>message_filters</build_depend>
+  <build_depend>jsk_rviz_plugins</build_depend>
   <build_depend>tf</build_depend>
   <build_export_depend>roscpp</build_export_depend>
   <build_export_depend>sensor_msgs</build_export_depend>
   <build_export_depend>visualization_msgs</build_export_depend>
+  <build_export_depend>super_odometry_msgs</build_export_depend>
   <build_export_depend>eigen</build_export_depend>
   <exec_depend>roscpp</exec_depend>
   <exec_depend>eigen</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>super_odometry_msgs</exec_depend>
   <exec_depend>cmake_modules</exec_depend>
   <exec_depend>visualization_msgs</exec_depend>
   <exec_depend>tf</exec_depend>
+  <exec_depend>jsk_rviz_plugins</exec_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->
